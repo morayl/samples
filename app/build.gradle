@@ -32,4 +32,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
+    implementation 'io.reactivex.rxjava2:rxkotlin:2.3.0'
+    testImplementation 'org.mockito:mockito-inline:2.24.0'
+    testImplementation 'org.amshove.kluent:kluent-android:1.35'
+    testImplementation "io.mockk:mockk:1.9.3"
+    testImplementation 'androidx.test:core:1.2.0'
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0"
+
 }
